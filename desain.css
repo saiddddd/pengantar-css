@@ -1,0 +1,122 @@
+#gambar{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+#lengkung{
+    border-radius: 10%; 
+}
+
+#tulisan{
+    font-size: 2.5vw;
+    /* viewport width */
+    color: #1c1501;
+    text-align: justify;
+    font-family: Calibri;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 3vw;
+}
+
+a:hover{
+    text-decoration: none;
+    color: gray;
+    font-size: 3vw;
+}
+
+
+.hitamputih{
+    -webkit-filter: grayscale(100%);
+}
+
+.hitamputih:hover{
+    -webkit-filter: grayscale(0%);
+}
+
+.klasik{
+    -webkit-filter: sepia(100%);
+}
+
+.klasik:hover{
+    -webkit-filter: sepia(0%);
+}
+
+.kecerahan{
+    opacity: 50%;
+}
+
+.kecerahan:hover{
+    opacity: 100%;
+}
+
+.perbesar{
+    transition: transform 1.5s;
+}
+
+.perbesar:hover{
+    transform: scale(1.3);
+}
+
+.perkecil{
+    transition: transform 1.5s;
+}
+
+.perkecil:hover{
+    transform: scale(0.8);
+}
+
+.geser{
+    transition: transform 1.5s;
+}
+
+.geser:hover{
+    transform: translateX(10%);
+}
+
+
+.rotasi{
+    transition:transform 4s;
+}
+
+.rotasi:hover{
+    transform:rotate(360deg);
+}
+
+body{
+    background:linear-gradient(to bottom, orange, yellow);
+    /* background: radial-gradient(blue, green); */
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    border: 0%;
+    /* background-repeat: no-repeat; */
+    height: 100%;
+    max-height: 100%;
+}
+
+#footer{
+    font-size:3vw;
+    /* viewport width */
+    color: #1c1501;
+    text-align: center;
+    font-family: Calibri;
+}
+
+#judul{
+    font-size: 3vw;
+    /* viewport width */
+    color: #1c1501;
+    text-align: center;
+    font-family: Calibri;
+}
